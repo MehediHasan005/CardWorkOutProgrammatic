@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559406152930978400EE19C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559406142930978400EE19C9 /* AppDelegate.swift */; };
+		559406172930978400EE19C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559406162930978400EE19C9 /* SceneDelegate.swift */; };
+		5594061E2930978400EE19C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5594061D2930978400EE19C9 /* Assets.xcassets */; };
+		559406212930978400EE19C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5594061F2930978400EE19C9 /* LaunchScreen.storyboard */; };
+		5594062C2930978500EE19C9 /* CardWorkOut_ProgrammaticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594062B2930978500EE19C9 /* CardWorkOut_ProgrammaticTests.swift */; };
+		559406362930978500EE19C9 /* CardWorkOut_ProgrammaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559406352930978500EE19C9 /* CardWorkOut_ProgrammaticUITests.swift */; };
+		559406382930978500EE19C9 /* CardWorkOut_ProgrammaticUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559406372930978500EE19C9 /* CardWorkOut_ProgrammaticUITestsLaunchTests.swift */; };
+		55940645293098CB00EE19C9 /* CardSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55940644293098CB00EE19C9 /* CardSelectionViewController.swift */; };
+		559406472930999500EE19C9 /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559406462930999500EE19C9 /* CWButton.swift */; };
+		559406492930B6F500EE19C9 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559406482930B6F500EE19C9 /* RulesViewController.swift */; };
+		5594064B2930BEBA00EE19C9 /* CardDec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594064A2930BEBA00EE19C9 /* CardDec.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		559406282930978500EE19C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559406092930978400EE19C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559406102930978400EE19C9;
+			remoteInfo = "CardWorkOut-Programmatic";
+		};
+		559406322930978500EE19C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 559406092930978400EE19C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 559406102930978400EE19C9;
+			remoteInfo = "CardWorkOut-Programmatic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		559406112930978400EE19C9 /* CardWorkOut-Programmatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardWorkOut-Programmatic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559406142930978400EE19C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		559406162930978400EE19C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5594061D2930978400EE19C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		559406202930978400EE19C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		559406222930978400EE19C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559406272930978500EE19C9 /* CardWorkOut-ProgrammaticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CardWorkOut-ProgrammaticTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5594062B2930978500EE19C9 /* CardWorkOut_ProgrammaticTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWorkOut_ProgrammaticTests.swift; sourceTree = "<group>"; };
+		559406312930978500EE19C9 /* CardWorkOut-ProgrammaticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CardWorkOut-ProgrammaticUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		559406352930978500EE19C9 /* CardWorkOut_ProgrammaticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWorkOut_ProgrammaticUITests.swift; sourceTree = "<group>"; };
+		559406372930978500EE19C9 /* CardWorkOut_ProgrammaticUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWorkOut_ProgrammaticUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55940644293098CB00EE19C9 /* CardSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionViewController.swift; sourceTree = "<group>"; };
+		559406462930999500EE19C9 /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
+		559406482930B6F500EE19C9 /* RulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		5594064A2930BEBA00EE19C9 /* CardDec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDec.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5594060E2930978400EE19C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559406242930978500EE19C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5594062E2930978500EE19C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559406082930978400EE19C9 = {
+			isa = PBXGroup;
+			children = (
+				559406132930978400EE19C9 /* CardWorkOut-Programmatic */,
+				5594062A2930978500EE19C9 /* CardWorkOut-ProgrammaticTests */,
+				559406342930978500EE19C9 /* CardWorkOut-ProgrammaticUITests */,
+				559406122930978400EE19C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		559406122930978400EE19C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559406112930978400EE19C9 /* CardWorkOut-Programmatic.app */,
+				559406272930978500EE19C9 /* CardWorkOut-ProgrammaticTests.xctest */,
+				559406312930978500EE19C9 /* CardWorkOut-ProgrammaticUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559406132930978400EE19C9 /* CardWorkOut-Programmatic */ = {
+			isa = PBXGroup;
+			children = (
+				559406142930978400EE19C9 /* AppDelegate.swift */,
+				559406162930978400EE19C9 /* SceneDelegate.swift */,
+				5594061D2930978400EE19C9 /* Assets.xcassets */,
+				5594061F2930978400EE19C9 /* LaunchScreen.storyboard */,
+				559406222930978400EE19C9 /* Info.plist */,
+				55940644293098CB00EE19C9 /* CardSelectionViewController.swift */,
+				559406462930999500EE19C9 /* CWButton.swift */,
+				559406482930B6F500EE19C9 /* RulesViewController.swift */,
+				5594064A2930BEBA00EE19C9 /* CardDec.swift */,
+			);
+			path = "CardWorkOut-Programmatic";
+			sourceTree = "<group>";
+		};
+		5594062A2930978500EE19C9 /* CardWorkOut-ProgrammaticTests */ = {
+			isa = PBXGroup;
+			children = (
+				5594062B2930978500EE19C9 /* CardWorkOut_ProgrammaticTests.swift */,
+			);
+			path = "CardWorkOut-ProgrammaticTests";
+			sourceTree = "<group>";
+		};
+		559406342930978500EE19C9 /* CardWorkOut-ProgrammaticUITests */ = {
+			isa = PBXGroup;
+			children = (
+				559406352930978500EE19C9 /* CardWorkOut_ProgrammaticUITests.swift */,
+				559406372930978500EE19C9 /* CardWorkOut_ProgrammaticUITestsLaunchTests.swift */,
+			);
+			path = "CardWorkOut-ProgrammaticUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559406102930978400EE19C9 /* CardWorkOut-Programmatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5594063B2930978500EE19C9 /* Build configuration list for PBXNativeTarget "CardWorkOut-Programmatic" */;
+			buildPhases = (
+				5594060D2930978400EE19C9 /* Sources */,
+				5594060E2930978400EE19C9 /* Frameworks */,
+				5594060F2930978400EE19C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CardWorkOut-Programmatic";
+			productName = "CardWorkOut-Programmatic";
+			productReference = 559406112930978400EE19C9 /* CardWorkOut-Programmatic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		559406262930978500EE19C9 /* CardWorkOut-ProgrammaticTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5594063E2930978500EE19C9 /* Build configuration list for PBXNativeTarget "CardWorkOut-ProgrammaticTests" */;
+			buildPhases = (
+				559406232930978500EE19C9 /* Sources */,
+				559406242930978500EE19C9 /* Frameworks */,
+				559406252930978500EE19C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559406292930978500EE19C9 /* PBXTargetDependency */,
+			);
+			name = "CardWorkOut-ProgrammaticTests";
+			productName = "CardWorkOut-ProgrammaticTests";
+			productReference = 559406272930978500EE19C9 /* CardWorkOut-ProgrammaticTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		559406302930978500EE19C9 /* CardWorkOut-ProgrammaticUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559406412930978500EE19C9 /* Build configuration list for PBXNativeTarget "CardWorkOut-ProgrammaticUITests" */;
+			buildPhases = (
+				5594062D2930978500EE19C9 /* Sources */,
+				5594062E2930978500EE19C9 /* Frameworks */,
+				5594062F2930978500EE19C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559406332930978500EE19C9 /* PBXTargetDependency */,
+			);
+			name = "CardWorkOut-ProgrammaticUITests";
+			productName = "CardWorkOut-ProgrammaticUITests";
+			productReference = 559406312930978500EE19C9 /* CardWorkOut-ProgrammaticUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559406092930978400EE19C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					559406102930978400EE19C9 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					559406262930978500EE19C9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 559406102930978400EE19C9;
+					};
+					559406302930978500EE19C9 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 559406102930978400EE19C9;
+					};
+				};
+			};
+			buildConfigurationList = 5594060C2930978400EE19C9 /* Build configuration list for PBXProject "CardWorkOut-Programmatic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 559406082930978400EE19C9;
+			productRefGroup = 559406122930978400EE19C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559406102930978400EE19C9 /* CardWorkOut-Programmatic */,
+				559406262930978500EE19C9 /* CardWorkOut-ProgrammaticTests */,
+				559406302930978500EE19C9 /* CardWorkOut-ProgrammaticUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5594060F2930978400EE19C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559406212930978400EE19C9 /* LaunchScreen.storyboard in Resources */,
+				5594061E2930978400EE19C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559406252930978500EE19C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5594062F2930978500EE19C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5594060D2930978400EE19C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559406492930B6F500EE19C9 /* RulesViewController.swift in Sources */,
+				559406152930978400EE19C9 /* AppDelegate.swift in Sources */,
+				559406172930978400EE19C9 /* SceneDelegate.swift in Sources */,
+				55940645293098CB00EE19C9 /* CardSelectionViewController.swift in Sources */,
+				5594064B2930BEBA00EE19C9 /* CardDec.swift in Sources */,
+				559406472930999500EE19C9 /* CWButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		559406232930978500EE19C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5594062C2930978500EE19C9 /* CardWorkOut_ProgrammaticTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5594062D2930978500EE19C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559406382930978500EE19C9 /* CardWorkOut_ProgrammaticUITestsLaunchTests.swift in Sources */,
+				559406362930978500EE19C9 /* CardWorkOut_ProgrammaticUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		559406292930978500EE19C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559406102930978400EE19C9 /* CardWorkOut-Programmatic */;
+			targetProxy = 559406282930978500EE19C9 /* PBXContainerItemProxy */;
+		};
+		559406332930978500EE19C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 559406102930978400EE19C9 /* CardWorkOut-Programmatic */;
+			targetProxy = 559406322930978500EE19C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5594061F2930978400EE19C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559406202930978400EE19C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		559406392930978500EE19C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5594063A2930978500EE19C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5594063C2930978500EE19C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CardWorkOut-Programmatic/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.CardWorkOut-Programmatic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5594063D2930978500EE19C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CardWorkOut-Programmatic/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.CardWorkOut-Programmatic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5594063F2930978500EE19C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.CardWorkOut-ProgrammaticTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardWorkOut-Programmatic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardWorkOut-Programmatic";
+			};
+			name = Debug;
+		};
+		559406402930978500EE19C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.CardWorkOut-ProgrammaticTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardWorkOut-Programmatic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CardWorkOut-Programmatic";
+			};
+			name = Release;
+		};
+		559406422930978500EE19C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.CardWorkOut-ProgrammaticUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CardWorkOut-Programmatic";
+			};
+			name = Debug;
+		};
+		559406432930978500EE19C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.CardWorkOut-ProgrammaticUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CardWorkOut-Programmatic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5594060C2930978400EE19C9 /* Build configuration list for PBXProject "CardWorkOut-Programmatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559406392930978500EE19C9 /* Debug */,
+				5594063A2930978500EE19C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5594063B2930978500EE19C9 /* Build configuration list for PBXNativeTarget "CardWorkOut-Programmatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5594063C2930978500EE19C9 /* Debug */,
+				5594063D2930978500EE19C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5594063E2930978500EE19C9 /* Build configuration list for PBXNativeTarget "CardWorkOut-ProgrammaticTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5594063F2930978500EE19C9 /* Debug */,
+				559406402930978500EE19C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559406412930978500EE19C9 /* Build configuration list for PBXNativeTarget "CardWorkOut-ProgrammaticUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559406422930978500EE19C9 /* Debug */,
+				559406432930978500EE19C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 559406092930978400EE19C9 /* Project object */;
+}
